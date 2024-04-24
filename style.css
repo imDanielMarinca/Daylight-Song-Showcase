@@ -1,0 +1,87 @@
+body {
+    margin: 0px;
+}
+
+.navbar {
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    background-color: rgb(37, 48, 23);
+}
+
+.navbar-text {
+    padding: 40px;
+    text-decoration: none;
+    font-family: Garamond;
+    font-size: 120%;
+    color: hsla(0, 0%, 100%, 0.836);
+}
+
+.navbar-text:hover {
+    color: rgb(255, 255, 255);
+}
+
+.home-background {
+    position: fixed;
+    height: 750px;
+    width: 100%;
+    background-image: url('cover.jpg');
+    background-size: cover;
+    background-position: center;
+    filter: blur(10px);
+    transform: scale(1.1);
+}
+
+#song-title {
+    position: absolute;
+    top: 125px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    text-align: center;
+    font-family: Garamond;
+    font-size: 700%;
+    text-shadow: #ffffff 0 0 50px;
+    color: #eaeaea;
+}
+
+#artist-title {
+    position: absolute;
+    top: 290px;
+    left: 50%;
+    width: 1000px;
+    transform: translate(-50%, 0);
+    text-align: center;
+    font-family: Garamond;
+    font-size: 280%;
+    color: #eaeaea;
+}
+
+#audio {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    transform: translate(-50%, 0);
+}
+
+#lyrics {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    line-height: 21px;
+    font-family: Garamond;
+    color: white;
+}
+
+.song-parts {
+    position: fixed;
+    left: 30%;
+    padding: 0px;
+    margin: 0px;
+    align-items: center;
+}
